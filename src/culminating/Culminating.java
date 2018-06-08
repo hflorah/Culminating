@@ -1,7 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * To help end users to improve interest in math through solving funny questions.
+ * The lottery game is to make the whole program more attractive.
+ * Siwen Huang (Bennie)
+ * 8 June, 2018
  */
 
 package culminating;
@@ -562,19 +563,20 @@ public class Culminating extends javax.swing.JFrame {
     }//GEN-LAST:event_input6ActionPerformed
 
     private void check1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_check1ActionPerformed
-        int num1,num2,num3,num4,num5,num6;
+        int num1,num2,num3,num4,num5,num6;//set the variable
         num1 =Integer.parseInt(input1.getText());
         num2 =Integer.parseInt(input2.getText());
         num3 =Integer.parseInt(input3.getText());
         num4 =Integer.parseInt(input4.getText());
         num5 =Integer.parseInt(input5.getText());
         num6 =Integer.parseInt(input6.getText());
-
+        
+        //check the answers whether they are correct or not
         if (num1 == 11){
-            output1.setText("Correct");
+            output1.setText("Correct");//if the answer is correct, the output will show "correct"
         }
         else {
-            output1.setText("Error");
+            output1.setText("Error");//if the answer is wrong, the output will show "erro"
         }
         if (num2 == 121){
             output2.setText("Correct");
@@ -634,7 +636,7 @@ public class Culminating extends javax.swing.JFrame {
     }//GEN-LAST:event_Input6ActionPerformed
 
     private void check2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_check2ActionPerformed
-        int num7,num8,num9,num10,num11,num12;
+        int num7,num8,num9,num10,num11,num12;//set the variable
         num7 =Integer.parseInt(Input1.getText());
         num8 =Integer.parseInt(Input2.getText());
         num9 =Integer.parseInt(Input3.getText());
@@ -642,11 +644,12 @@ public class Culminating extends javax.swing.JFrame {
         num11 =Integer.parseInt(Input5.getText());
         num12 =Integer.parseInt(Input6.getText());
         
+        //check the answers whether they are correct or not
         if (num7 == 11){
-            output7.setText("Correct");
+            output7.setText("Correct");//if the answer is correct, the output will show "correct"
         }
         else {
-            output7.setText("Error");
+            output7.setText("Error");//if the answer is wrong, the output will show "erro"
         }
         if (num8 == 111){
             output8.setText("Correct");
@@ -681,6 +684,7 @@ public class Culminating extends javax.swing.JFrame {
     }//GEN-LAST:event_check2ActionPerformed
 
     private void lotteryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lotteryActionPerformed
+        //go to the second page
         this.setVisible(false);
         new Culminating1().setVisible(true);
     }//GEN-LAST:event_lotteryActionPerformed

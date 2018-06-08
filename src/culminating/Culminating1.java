@@ -192,9 +192,9 @@ public class Culminating1 extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void startActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startActionPerformed
-        int luckValue;
-        luckValue = (int)Math.ceil(Math.random()*5);
-        if (luckValue == 1){
+        int luckValue;//set the variable
+        luckValue = (int)Math.ceil(Math.random()*5);//random method
+        if (luckValue == 1){//if statement
             luck.setText("Lucky dog!! No."+luckValue+" $100");
         }
         else if (luckValue == 2){
@@ -209,12 +209,10 @@ public class Culminating1 extends javax.swing.JFrame {
         else if (luckValue ==5 ){
             luck.setText("Better luck next time. No."+luckValue+" $5");
         }
-//        luck.setText(Integer.toString(luckValue));
-        
     }//GEN-LAST:event_startActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        this.setVisible(false);
+        this.setVisible(false);//go back the irst screen
         new Culminating().setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
