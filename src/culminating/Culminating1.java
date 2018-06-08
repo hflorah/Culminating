@@ -1,7 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * To help end users to improve interest in math through solving funny questions.
+ * The lottery game is to make the whole program more attractive.
+ * Siwen Huang (Bennie)
+ * 8 June, 2018
  */
 
 package culminating;
